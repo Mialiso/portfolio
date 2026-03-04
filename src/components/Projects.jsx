@@ -13,7 +13,7 @@ export default function Projects({ filter, onClearFilter, onViewSkill }) {
       skillId: ["realiser","optimiser","administrer","conduire","collaborer"],
       longDescription: (<><p style={{ marginBottom: '0.75rem' }}>Site e-commerce de Bricolo SARL, une entreprise qui vend des LEGO</p><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Caractéristiques techniques :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', marginBottom: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>Développement : PHP / MySQL</li><li>Architecture MVC</li></ul><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Fonctionnalités :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>Création d'un compte</li><li>Connexion sécurisée</li><li>Consulter, trier et rechercher des produits</li><li>Gestion de panier et commandes</li><li>Interface admin (stocks)</li></ul></>),
       tags: ["PHP","HTML","CSS","MySQL","Agile"],
-      gallery: ["/e-commerce.mp4","panier et commande.mp4","panier et se déconnecter.mp4","/catalogue.mp4","/connexion.mp4","/démo-brickolo.mp4","/brickolo.png"],
+      gallery: ["e-commerce.mp4","panier et commande.mp4","panier et se déconnecter.mp4","catalogue.mp4","connexion.mp4","démo-brickolo.mp4","brickolo.png"],
     },
     {
       title: "Application bancaire",
@@ -21,7 +21,7 @@ export default function Projects({ filter, onClearFilter, onViewSkill }) {
       skillId: ["realiser","optimiser","administrer","gerer","conduire","collaborer"],
       longDescription: (<><p style={{ marginBottom: '0.75rem' }}>Création d'une application bancaire complète</p><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Caractéristiques techniques :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', marginBottom: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>Développement : Java</li><li>Gestion de la base de données : Oracle SQL</li></ul><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Fonctionnalités :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>CRUD d'un compte</li><li>Gestion de compte bancaire : transaction, historique des opérations...</li></ul></>),
       tags: ["Java","JavaFx","SQL","Scrum"],
-      gallery: ["/banque.png","/connexion_banque.png","/client.png"],
+      gallery: ["banque.png","connexion_banque.png","client.png"],
     },
     {
       title: "Gestion de scolarité",
@@ -29,7 +29,7 @@ export default function Projects({ filter, onClearFilter, onViewSkill }) {
       skillId: ["realiser","optimiser"],
       longDescription: (<><p style={{ marginBottom: '0.75rem' }}>Création d'un site web "Scolarité"</p><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Caractéristiques techniques :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', marginBottom: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>Framework : Symfony</li><li>Utilisation de Twig pour des vues dynamiques</li><li>Bootswatch/Bootstrap</li><li>Gestion de la base de données : MySQL</li></ul><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Fonctionnalités :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>Page d'accueil</li><li>CRUD étudiant + Détail de l'étudiant</li><li>CRUD diplômes + Détail d'un diplôme</li><li>CRUD promotions + Détail d'une promotion</li></ul></>),
       tags: ["Symfony","Twig","Bootstrap","MySQL"],
-      gallery: ["/scolarite.png"],
+      gallery: ["scolarite.png"],
     },
     {
       title: "Web de restauration",
@@ -37,7 +37,7 @@ export default function Projects({ filter, onClearFilter, onViewSkill }) {
       skillId: ["realiser","optimiser","gerer","conduire","collaborer"],
       longDescription: (<><p style={{ marginBottom: '0.75rem' }}>Création d'un site de restaurant</p><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Caractéristiques techniques :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', marginBottom: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>Framework : Angular</li><li>Langage : TypeScript</li></ul><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Fonctionnalités :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>CRUD menu + détail de chaque menu</li><li>CRUD plat + détail de chaque plat</li><li>Distinguer les plats actifs et inactifs</li></ul></>),
       tags: ["Angular","TypeScript","JavaScript"],
-      gallery: ["/resto.png","/menu_resto.png","/description_menu.png","/nouveau_menu.png","/nouveau_plat.png"],
+      gallery: ["resto.png","menu_resto.png","description_menu.png","nouveau_menu.png","nouveau_plat.png"],
     },
     {
       title: "App VR - IoT",
@@ -45,7 +45,7 @@ export default function Projects({ filter, onClearFilter, onViewSkill }) {
       skillId: ["realiser","optimiser","collaborer"],
       longDescription: (<><p style={{ marginBottom: '0.75rem' }}>Ajout de capteurs et objets 3D dans un bâtiment de recherche modélisé en 3D</p><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Caractéristiques techniques :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', marginBottom: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>Modélisation 3D : Unity</li><li>Langage : C#</li><li>Communication avec un broker MQTT</li></ul><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Fonctionnalités :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>Ajouter des capteurs dynamiquement via MQTT</li><li>Ajouter des objets 3D via JSON sur MQTT</li><li>Manipuler les objets 3D</li><li>Tutoriel intégré pour les débutants</li></ul></>),
       tags: ["Unity","C#","MQTT","3D"],
-      gallery: ["/IoT.mp4","/IotTuto.mp4"],
+      gallery: ["IoT.mp4","IotTuto.mp4"],
     },
     {
       title: "Bomberman 3D",
@@ -53,7 +53,7 @@ export default function Projects({ filter, onClearFilter, onViewSkill }) {
       skillId: ["realiser","optimiser","collaborer"],
       longDescription: (<><p style={{ marginBottom: '0.75rem' }}>Création du jeu Bomberman en 3D</p><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Caractéristiques techniques :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', marginBottom: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>Moteur : Godot</li><li>Langage : GDScript</li></ul></>),
       tags: ["Godot","GDScript","3D"],
-      gallery: ["/bomberman.mp4"],
+      gallery: ["bomberman.mp4"],
     },
     {
       title: "Akari JavaFX",
@@ -61,7 +61,7 @@ export default function Projects({ filter, onClearFilter, onViewSkill }) {
       skillId: ["realiser","Conduire","Collaborer"],
       longDescription: (<><p style={{ marginBottom: '0.75rem' }}>Jeu de puzzle Akari en JavaFX</p><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Caractéristiques techniques :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>JavaFX</li><li>Architecture MVC</li></ul></>),
       tags: ["Java","JavaFX","MVC"],
-      gallery: ["/akari.jpg"],
+      gallery: ["akari.jpg"],
     },
     {
       title: "Gestion d'emploi du temps",
@@ -69,7 +69,7 @@ export default function Projects({ filter, onClearFilter, onViewSkill }) {
       skillId: ["realiser","optimiser","gerer","conduire","collaborer"],
       longDescription: (<><p style={{ marginBottom: '0.75rem' }}>Outil de gestion d'emploi du temps</p><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Caractéristiques techniques :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', marginBottom: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>Framework : Django, Vue</li><li>Langage : Python</li></ul><p style={{ fontWeight: 700, color: '#D9603B', marginBottom: '0.4rem', fontSize: '0.85rem' }}>Fonctionnalités :</p><ul style={{ listStyleType: 'disc', paddingLeft: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.25rem' }}><li>Gestion des étudiants (CRUD)</li><li>Gestion des salles, horaires, disponibilité des professeurs</li><li>Génération automatique d'emploi du temps</li></ul></>),
       tags: ["Django","Python","CRUD"],
-      gallery: ["/edt.png"],
+      gallery: ["edt.png"],
     },
   ];
 

@@ -191,7 +191,7 @@ export default function Presentation() {
             boxShadow: '0 30px 60px rgba(42,31,26,0.2)',
           }}>
             <img
-              src="/mialy.jpg"
+              src="mialy.jpg"
               alt="Portrait de Mialisoa"
               style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top center' }}
             />
