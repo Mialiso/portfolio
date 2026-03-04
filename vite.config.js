@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite' // <-- On importe le plugin
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(), // <-- On l'active ici
+    tailwindcss(), 
   ],
+  base: "/portfolio/"
 })
