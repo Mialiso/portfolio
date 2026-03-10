@@ -150,7 +150,7 @@ export default function Presentation() {
             Parcours : <strong style={{ color: '#D9603B', fontWeight: 600 }}>Réalisation d'application</strong>
           </p>
           <p style={{ fontSize: '0.82rem', color: '#b09080', fontStyle: 'italic', marginBottom: '2.5rem', fontFamily: 'DM Sans, sans-serif' }}>
-            À la recherche d'une alternance pour son master
+            À la recherche d'une alternance pour mon master
           </p>
 
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1.2rem', alignItems: 'center' }}>
