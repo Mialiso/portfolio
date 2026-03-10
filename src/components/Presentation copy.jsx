@@ -29,7 +29,7 @@ export default function Presentation() {
         </p>
         <div className="flex flex-wrap gap-4 items-center">
           <a
-            href="/cv-mialisoa.pdf"
+            href="cv-mialisoa.pdf"
             download="CV_Mialisoa_RAZAFINIRINA.pdf"
             className="px-8 py-4 bg-transparent border-2 border-white/20 hover:border-blue-500 rounded-full font-bold flex items-center gap-2 transition group inline-flex"
           >
