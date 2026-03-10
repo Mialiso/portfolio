@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Presentation from "./components/Presentation";
 import Experience from "./components/Experience";
-import Skills from "./components/skills";
+import Skills from "./components/Skills";
+import PPP from "./components/PPP"; 
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { Mail, Linkedin, Github } from "lucide-react";
@@ -57,7 +58,7 @@ export default function App() {
             M. <span style={{ color: '#D9603B' }}>Portfolio</span>
           </div>
           <div style={{ display: 'flex', gap: '2.5rem', alignItems: 'center' }}>
-            {[['#hero','Présentation'],['#experience','Expérience'],['#skills','Compétences'],['#projets','Projets'],['#contact','Contact']].map(([href, label]) => (
+            {[['#hero','Présentation'],['#experience','Formation'],['#skills','Compétences'],['#projets','Projets'],['#ppp', 'Projet Pro'],['#contact','Contact']].map(([href, label]) => (
               <a key={href} href={href} className="nav-link hidden md:block">{label}</a>
             ))}
           </div>
@@ -77,6 +78,7 @@ export default function App() {
           onClearFilter={() => setActiveFilter(null)}
           onViewSkill={handleViewSkill}
         />
+        <PPP />
         <Contact />
       </main>
 

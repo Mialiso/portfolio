@@ -52,7 +52,7 @@ export default function Skills({ onFilter, forceOpenId, onCloseForceOpen }) {
 
   const techStack = [
     { title: "Programmation", items: "Java, Python, TypeScript, PHP, C#, C++", icon: Code2 },
-    { title: "Frameworks", items: "Symfony, Angular, Vue, Django, JavaFX, Spring", icon: Layers },
+    { title: "Frameworks", items: "Symfony, Angular, Vue, Django, JavaFX, Spring, React", icon: Layers },
     { title: "Développement Web", items: "HTML5, CSS3, JavaScript, Twig", icon: Globe },
     { title: "Bases de données", items: "Oracle SQL, MySQL, NoSQL", icon: Server },
     { title: "Systèmes & Outils", items: "Windows, Linux, GitHub, VS Code, Framagit, Eclipse", icon: Laptop },

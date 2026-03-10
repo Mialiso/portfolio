@@ -102,7 +102,7 @@ export default function Projects({ filter, onClearFilter, onViewSkill }) {
             <div key={index} onClick={() => { setSelectedProject(project); setActiveMedia(0); }}>
               <ProjectCard
                 title={project.title}
-                description="Découvrez les détails de ce projet et ses fonctionnalités techniques."
+                description=" "
                 tags={project.tags}
                 media={project.gallery[0]}
               />
