@@ -72,19 +72,19 @@ export default function PPP() {
                 </div>
                 <div>
                   <p style={{ fontSize: '0.62rem', fontWeight: 700, color: '#b09080', textTransform: 'uppercase', letterSpacing: '0.15em', fontFamily: 'DM Sans, Arial, sans-serif' }}>Formation visée</p>
-                  <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.2rem', fontWeight: 700, color: '#2a1f1a' }}>Master MIAGE</h4>
+                  <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.2rem', fontWeight: 700, color: '#2a1f1a' }}>Master Informatique et Master MIAGE </h4>
                 </div>
               </div>
 
-              <p style={{ color: '#7a6a60', fontSize: '0.88rem', lineHeight: 1.75, fontFamily: 'DM Sans, Arial, sans-serif', marginBottom: '1.25rem' }}>
+              {/* <p style={{ color: '#7a6a60', fontSize: '0.88rem', lineHeight: 1.75, fontFamily: 'DM Sans, Arial, sans-serif', marginBottom: '1.25rem' }}>
                 La <strong style={{ color: '#2a1f1a' }}>MIAGE</strong> (Méthodes Informatiques Appliquées à la Gestion des Entreprises) est la formation idéale pour allier compétences techniques et vision métier — en phase avec mes ambitions d'architecte logiciel et de gestion de projet.
-              </p>
+              </p> */}
 
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+              {/* <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                 {['Génie logiciel', 'Gestion de projet', 'Base de données'].map(tag => (
                   <span key={tag} className="ppp-tag">{tag}</span>
                 ))}
-              </div>
+              </div> */}
             </div>
 
             {/* Alternance */}
@@ -97,8 +97,7 @@ export default function PPP() {
                 Disponible dès septembre 2026
               </p>
               <p style={{ color: '#7a6a60', fontSize: '0.85rem', lineHeight: 1.7, fontFamily: 'DM Sans, Arial, sans-serif' }}>
-                Je recherche une alternance dans le cadre de mon Master MIAGE, idéalement dans un environnement où je pourrai contribuer à des projets d'architecture logicielle ou de gestion de systèmes d'information.
-              </p>
+                Je suis à la recherche d'un contrat en alternance dans le cadre de mon Master, avec l'objectif d'acquérir une expérience professionnelle concrète en parallèle de ma formation académique.</p>
             </div>
 
           </div>
