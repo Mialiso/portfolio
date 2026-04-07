@@ -109,8 +109,8 @@ export default function PPP() {
                 <Target size={20} color="#D9603B" />
               </div>
               <div>
-                <p style={{ fontSize: '0.62rem', fontWeight: 700, color: '#b09080', textTransform: 'uppercase', letterSpacing: '0.15em', fontFamily: 'DM Sans, Arial, sans-serif' }}>Projet à long terme</p>
-                <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.2rem', fontWeight: 700, color: '#2a1f1a' }}>Ma trajectoire</h4>
+                <p style={{ fontSize: '0.62rem', fontWeight: 700, color: '#b09080', textTransform: 'uppercase', letterSpacing: '0.15em', fontFamily: 'DM Sans, Arial, sans-serif' }}>Projet professionel</p>
+                <h4 style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.2rem', fontWeight: 700, color: '#2a1f1a' }}>Métiers visés</h4>
               </div>
             </div>
 
@@ -124,7 +124,7 @@ export default function PPP() {
                   <div style={{ width: 1, flex: 1, background: 'rgba(217,96,59,0.2)', minHeight: 40 }} />
                 </div>
                 <div style={{ paddingBottom: '0.5rem' }}>
-                  <span style={{ fontSize: '0.65rem', fontWeight: 700, color: '#D9603B', textTransform: 'uppercase', letterSpacing: '0.1em', fontFamily: 'DM Sans, Arial, sans-serif' }}>Court terme · 2026–2028</span>
+                  {/* <span style={{ fontSize: '0.65rem', fontWeight: 700, color: '#D9603B', textTransform: 'uppercase', letterSpacing: '0.1em', fontFamily: 'DM Sans, Arial, sans-serif' }}>Court terme · 2026–2028</span> */}
                   <p style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1.05rem', color: '#2a1f1a', margin: '0.2rem 0' }}>Architecte Logiciel</p>
                   <p style={{ color: '#7a6a60', fontSize: '0.82rem', lineHeight: 1.65, fontFamily: 'DM Sans, Arial, sans-serif' }}>Concevoir et structurer des systèmes applicatifs robustes, évolutifs et maintenables pour des entreprises.</p>
                 </div>
@@ -137,7 +137,7 @@ export default function PPP() {
                   <div style={{ width: 1, flex: 1, background: 'rgba(42,31,26,0.15)', minHeight: 40 }} />
                 </div>
                 <div style={{ paddingBottom: '0.5rem' }}>
-                  <span style={{ fontSize: '0.65rem', fontWeight: 700, color: '#7a6a60', textTransform: 'uppercase', letterSpacing: '0.1em', fontFamily: 'DM Sans, Arial, sans-serif' }}>Moyen terme · 2028–2032</span>
+                  {/* <span style={{ fontSize: '0.65rem', fontWeight: 700, color: '#7a6a60', textTransform: 'uppercase', letterSpacing: '0.1em', fontFamily: 'DM Sans, Arial, sans-serif' }}>Moyen terme · 2028–2032</span> */}
                   <p style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1.05rem', color: '#2a1f1a', margin: '0.2rem 0' }}>Chef de Projet IT</p>
                   <p style={{ color: '#7a6a60', fontSize: '0.82rem', lineHeight: 1.65, fontFamily: 'DM Sans, Arial, sans-serif' }}>Piloter des équipes et des projets de transformation digitale, en assurant la livraison dans les délais et les budgets.</p>
                 </div>
@@ -149,7 +149,7 @@ export default function PPP() {
                   <div className="timeline-dot" style={{ background: '#b09080' }} />
                 </div>
                 <div>
-                  <span style={{ fontSize: '0.65rem', fontWeight: 700, color: '#b09080', textTransform: 'uppercase', letterSpacing: '0.1em', fontFamily: 'DM Sans, Arial, sans-serif' }}>Long terme · 2032+</span>
+                  {/* <span style={{ fontSize: '0.65rem', fontWeight: 700, color: '#b09080', textTransform: 'uppercase', letterSpacing: '0.1em', fontFamily: 'DM Sans, Arial, sans-serif' }}>Long terme · 2032+</span> */}
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', margin: '0.2rem 0' }}>
                     <p style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1.05rem', color: '#2a1f1a' }}>Administratrice de Base de Données</p>
                     <Database size={16} color="#D9603B" />
